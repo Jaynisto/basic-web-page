@@ -1,0 +1,298 @@
+
+    
+@media ( max-width: 688px){
+
+    html {
+        flex-direction: column;
+        font-family:  Arial, sans-serif, monospace;
+        font-size: medium;
+        font-weight: 50%;
+        background-color: rgb(241, 207, 184);
+    }
+
+    /* Introduction Section */
+
+    .IntroductionSect {
+        /* display: flex; */
+        flex-flow: column wrap; 
+        justify-content: center; 
+    }
+    
+    .FirstPic {
+        width: 200px;
+        height: 200px;
+        border-radius: 60px;
+        margin-left: 40px;
+        
+    }
+
+    .MyHeading {
+        text-align: center;
+    }
+    
+    /* Favorite City Section */
+
+
+    .FavoriteCitySect {
+        display:flex;
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+    
+
+    .SecondPic {
+        width: 200px;
+        height: 200px;
+        border-radius: 60px;
+        margin-left: 30px;
+    }
+
+    .AboutGerman {
+        width: 300px;
+        text-align: center;
+    }
+
+    .GermanHeading {
+        text-align: center;
+    }
+
+    /* Foreign Language Section*/
+
+    .FLHeading{
+        text-align: center;
+    }
+
+    .FLParagraph {
+        text-align: center;
+    }
+
+
+    .ForeignLangSect {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    /* Historical Places Section */
+
+    .HistoricalPlaceSect {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-items: space-between;
+    }
+    .ThirdPic {
+        width: 200px;
+        height: 200px;
+        border-radius: 60px;
+    }
+
+    .ForthPic {
+        width: 200px;
+        height: 200px;
+        border-radius: 60px;
+    }
+
+    .FiftPic {
+        width: 200px;
+        height: 200px;
+        border-radius: 60px;
+    }
+    .HistoricalHeading {
+        text-align: center;
+    }
+
+
+    /* Table */
+    table {
+        border-collapse: collapse;
+        border: 2px solid rgb(200,200,200);
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+      }
+      
+      td, th {
+        border: 1px solid rgb(190,190,190);
+        padding: 10px 20px;
+      }
+      
+      th {
+        background-color: rgb(235,235,235);
+      }
+      
+      td {
+        text-align: center;
+      }
+      
+      tr:nth-child(even) td {
+        background-color: rgb(250,250,250);
+      }
+      
+      tr:nth-child(odd) td {
+        background-color: rgb(245,245,245);
+      }
+      
+      caption {
+        padding: 10px;
+      }
+
+      .Footer {
+        height: 100px;
+        background-color: aquamarine;
+        box-shadow: 5px 5px 5px rgba(12, 12, 12, 0.7);
+        align-items: center;
+    }
+      
+
+}
+
+
+@media (min-width: 688px) {
+    html {
+        flex-direction: column;
+        font-family:  Arial, sans-serif, monospace;
+        font-size: medium;
+        font-weight: 50%;
+        background-color: rgb(245, 218, 186);
+    }
+
+
+    /* Introduction Section */
+
+    .IntroductionSect {
+        display: flex;
+        flex-flow: row wrap; 
+        justify-content: center; 
+    }
+    
+    .FirstPic {
+        width: 200px;
+        height: 200px;
+        border-radius: 60px;
+        padding-left: 10px;
+    }
+
+    .MyHeading {
+        padding-left: 50px;
+    }
+    
+    /* Favorite City Section */
+
+    .FavoriteCitySect {
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .SecondPic {
+        width: 200px;
+        height: 200px;
+        border-radius: 60px;
+    }
+
+    .AboutGerman {
+        width: 800px;
+        height: 220px;
+        padding-left: 50px;
+        padding-top: 10px;
+
+    }
+
+    .GermanHeading {
+        margin-left: 205px;
+    }
+
+    /* Foreign Language Section*/
+
+    .FLHeading{
+        text-align: center;
+    }
+
+    .FLParagraph {
+        text-align: center;
+    }
+
+
+    .ForeignLangSect {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    /* Historical Places Section */
+
+    .HistoricalPlaceSect {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .ThirdPic {
+        width: 200px;
+        height: 200px;
+        border-radius: 60px;
+    }
+
+    .ForthPic {
+        width: 200px;
+        height: 200px;
+        border-radius: 60px;
+    }
+
+    .FiftPic {
+        width: 200px;
+        height: 200px;
+        border-radius: 60px;
+    }
+
+    .HistoricalHeading {
+        text-align: center;
+    }
+
+
+    /*Table*/
+
+
+    table {
+        border-collapse: collapse;
+        border: 2px solid rgb(200,200,200);
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+        width: 500px;
+        margin-left: 420px;
+      }
+      
+      td, th {
+        border: 1px solid rgb(190,190,190);
+        padding: 10px 20px;
+      }
+      
+      th {
+        background-color: rgb(235,235,235);
+      }
+      
+      td {
+        text-align: center;
+      }
+      
+      tr:nth-child(even) td {
+        background-color: rgb(250,250,250);
+      }
+      
+      tr:nth-child(odd) td {
+        background-color: rgb(245,245,245);
+      }
+      
+      caption {
+        padding: 10px;
+      }
+      .Footer {
+          height: 100px;
+          background-color: aquamarine;
+          box-shadow: 5px 5px 5px rgba(12, 12, 12, 0.7);
+          align-items: center;
+      }
+}
