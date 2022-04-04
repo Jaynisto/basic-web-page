@@ -14,16 +14,15 @@
 
     .IntroductionSect {
         /* display: flex; */
-        flex-flow: column wrap; 
-        justify-content: center; 
+        flex-direction: column;
+        text-align: center;
+        justify-items: space-between; 
     }
     
     .FirstPic {
         width: 200px;
         height: 200px;
-        border-radius: 60px;
-        margin-left: 40px;
-        
+        border-radius: 60px;        
     }
 
     .MyHeading {
@@ -34,9 +33,9 @@
 
 
     .FavoriteCitySect {
-        display:flex;
-        flex-flow: column wrap;
-        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        justify-items: space-between;
     }
     
 
@@ -44,11 +43,9 @@
         width: 200px;
         height: 200px;
         border-radius: 60px;
-        margin-left: 30px;
     }
 
     .AboutGerman {
-        width: 300px;
         text-align: center;
     }
 
@@ -77,7 +74,6 @@
     /* Historical Places Section */
 
     .HistoricalPlaceSect {
-        display: flex;
         flex-direction: column;
         text-align: center;
         justify-items: space-between;
@@ -190,6 +186,7 @@
         width: 200px;
         height: 200px;
         border-radius: 60px;
+
     }
 
     .AboutGerman {
