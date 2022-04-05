@@ -40,7 +40,7 @@
     
 
     .SecondPic {
-        width: 200px;
+        width: 300px;
         height: 200px;
         border-radius: 60px;
     }
@@ -73,6 +73,15 @@
 
     /* Historical Places Section */
 
+    .Babake {
+        padding: 8px;
+        margin: 8px;
+        max-width: 500px;
+        padding: 10px;
+        background-color: rgb(241, 227, 227);
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25));
+    }
+
     .HistoricalPlaceSect {
         flex-direction: column;
         text-align: center;
@@ -82,21 +91,36 @@
         width: 200px;
         height: 200px;
         border-radius: 60px;
+        float: right;
     }
 
     .ForthPic {
         width: 200px;
         height: 200px;
         border-radius: 60px;
+        float: left;
     }
 
     .FiftPic {
         width: 200px;
         height: 200px;
         border-radius: 60px;
+        float: right;
     }
     .HistoricalHeading {
         text-align: center;
+    }
+
+    .FirstPlace {
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+    }
+
+    .SecondPlace {
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+    }
+
+    .ThirdPlace {
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
     }
 
 
@@ -106,6 +130,7 @@
         border: 2px solid rgb(200,200,200);
         letter-spacing: 1px;
         font-size: 0.8rem;
+        align-content: center;
       }
       
       td, th {
@@ -135,9 +160,9 @@
 
       .Footer {
         height: 100px;
-        background-color: aquamarine;
+        background-color: rgb(209, 200, 196);
         box-shadow: 5px 5px 5px rgba(12, 12, 12, 0.7);
-        align-items: center;
+        align-content: center;
     }
       
 
@@ -192,13 +217,12 @@
     .AboutGerman {
         width: 800px;
         height: 220px;
-        padding-left: 50px;
-        padding-top: 10px;
+        align-items: center;
 
     }
 
     .GermanHeading {
-        margin-left: 205px;
+        text-align: center;
     }
 
     /* Foreign Language Section*/
@@ -221,32 +245,57 @@
 
     /* Historical Places Section */
 
+    /* Box */
+    .Babake {
+        padding: 8px;
+        margin: 8px;
+        max-width: 500px;
+        padding: 10px;
+        background-color: rgb(241, 227, 227);
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.25));
+    }
+
     .HistoricalPlaceSect {
         display: flex;
         align-items: center;
         text-align: center;
-        justify-content: space-around;
+        /* justify-content: space-around; */
     }
     .ThirdPic {
         width: 200px;
         height: 200px;
         border-radius: 60px;
+        float: right;
     }
 
     .ForthPic {
         width: 200px;
         height: 200px;
         border-radius: 60px;
+        float: right;
     }
 
     .FiftPic {
         width: 200px;
         height: 200px;
         border-radius: 60px;
+        float: right;
     }
 
     .HistoricalHeading {
         text-align: center;
+    }
+
+    .FirstPlace {
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+    }
+
+    .SecondPlace {
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+    }
+
+    .ThirdPlace {
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
     }
 
 
@@ -258,8 +307,7 @@
         border: 2px solid rgb(200,200,200);
         letter-spacing: 1px;
         font-size: 0.8rem;
-        width: 500px;
-        margin-left: 420px;
+        align-items: center;
       }
       
       td, th {
@@ -288,8 +336,8 @@
       }
       .Footer {
           height: 100px;
-          background-color: aquamarine;
+          background-color: rgb(211, 205, 202);
           box-shadow: 5px 5px 5px rgba(12, 12, 12, 0.7);
-          align-items: center;
+          align-content: center;
       }
 }
